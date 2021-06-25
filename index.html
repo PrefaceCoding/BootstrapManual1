@@ -1,0 +1,161 @@
+<!-- Bootstrap
+Bootstrap Grid: https://getbootstrap.com/docs/5.0/layout/grid/
+Bootstrap Borders: https://getbootstrap.com/docs/5.0/utilities/borders/
+Bootstrap Responsive Breakpoints: https://getbootstrap.com/docs/5.0/layout/breakpoints/ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOOTSTRAP</title>
+	<!-- Link for CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Bootstrap for CSS -->
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous"> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+	<br>
+	<p>BOOTSTRAP GRID</p>
+	<div class="one container">
+		<p>This will only be 100% of the width if screen width is smaller than 576px.</p>
+	</div>
+
+
+	<div class="container-md">
+		<p>This will only be 100% of the width if screen width is smaller than 768x.</p>
+	</div>
+	<div class="container-lg">
+		<p>This will be 100% of the width if the screen width is smaller than 992px.</p>
+	</div>
+
+	<div class="container-fluid">
+		<p>This takes up 100% of the width ALWAYS.</p>
+	</div>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-1 col-md-2 col-xs-12">1</div>
+			<div class="col-lg-1 col-md-2 col-xs-12">1</div>
+			<div class="col-lg-1 col-md-2 col-xs-12">1</div>
+			<div class="col-lg-1 col-md-2 col-xs-12">1</div>
+			<div class="col-lg-1 col-md-2 col-xs-12">1</div>
+			<div class="col-lg-1 col-md-2 col-xs-12">1</div>
+			<div class="col-lg-1 col-md-2 col-xs-12">1</div>
+			<div class="col-lg-1 col-md-2 col-xs-12">1</div>
+			<div class="col-lg-1 col-md-2 col-xs-12">1</div>
+			<div class="col-lg-1 col-md-2 col-xs-12">1</div>
+			<div class="col-lg-1 col-md-2 col-xs-12">1</div>
+			<div class="col-lg-1 col-md-2 col-xs-12">1</div>
+		</div>
+		<!-- <div class="row">
+			<div class="col-3">3</div>
+			<div class="col-3">3</div>
+			<div class="col-3">3</div>
+			<div class="col-3">3</div>
+		</div>
+		<div class="row">
+			<div class="col-4">4</div>
+			<div class="col-8">8</div>
+		</div> -->
+	</div>
+
+	<br>
+	<p>RESPONSIVE COLUMN SIZES</p>
+	<div class="container">
+		<div class="row">
+			<div class="col col-lg-6 col-md-12">
+				<p>Lorem ipsum dolor sit amet</p>
+			</div>
+			<div class="col">
+				<p>Lorem ipsum dolor sit amet</p>
+			</div>
+			<div class="col">
+				<p>Lorem ipsum dolor sit amet</p>
+			</div>
+		</div>	
+	</div>
+	<br>
+	<p>AUTO SIZE</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-auto">
+				<p>Lorem ipsum dolor sit amet</p>
+			</div>
+			<div class="col-auto">
+				<p>Lorem ipsum dolor sit amet</p>
+			</div>
+			<div class="col-auto">
+				<p>Lorem ipsum dolor sit amet</p>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-4">
+				<p>Lorem ipsum dolor sit amet</p>
+			</div>
+			<div class="col-4">
+				<p>Lorem ipsum dolor sit amet</p>
+			</div>
+			<div class="col-4">
+				<p>Lorem ipsum dolor sit amet</p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<p>NESTED CONTAINER</p>
+	<div class="container">
+		<div class="row">
+			<div class="col col-lg-7">
+				<div class="row">
+					<div class="col">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+						</p>
+					</div>
+					<div class="col">
+						<img class="img-fluid" src="https://www.pngkey.com/png/full/399-3999503_random-guy-pixel-game-character-png.png">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col col-lg-5">
+				<div class="row">
+					<div class="col">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					</div>
+					<div class="col">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					</div>
+					<div class="col">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<br>
+</body>
+</html>
+
+
+
+
+
+
+
+
